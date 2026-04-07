@@ -37,7 +37,7 @@ const Hero = () => {
 
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
          Discipline & <br />
-            <span className="text-[#CECA64]">Smarter Financial Decisions</span>
+            <span className="text-[#CECA64]">Smarter Investment Decisions</span>
           </h1>
 
 
