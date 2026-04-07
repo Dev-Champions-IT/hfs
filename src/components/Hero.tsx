@@ -44,7 +44,7 @@ const Hero = () => {
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
          HFS delivers disciplined, insight-driven strategies across asset classes —
-        helping retail investors, HNIs, and institutions make smarter financial decisions.
+        helping retail investors, HNIs, and institutions make smarter investment decisions.
           </p>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
