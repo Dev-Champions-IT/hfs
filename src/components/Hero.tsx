@@ -1,6 +1,8 @@
 // import { ArrowDown, Palette, Target, Zap } from 'lucide-react';
 import { ArrowDown, DollarSign, TrendingUp, ShieldCheck } from 'lucide-react'
-import image1 from '../assets/hero_image_main.png'; // This is Adetula Daniel's image
+import image1 from '../assets/hero_image_main.png'; 
+import { PopupWidget } from "react-calendly";
+
 
 const Hero = () => {
   const scrollToPortfolio = () => {
@@ -58,18 +60,27 @@ const Hero = () => {
       
 
              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center md:justify-start mb-5">
+            
             <button
-              onClick={scrollToPortfolio}
+             onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-[#CECA64]/80 hover:bg-[#CECA64]/80 text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-green-500/25"
             >
               Explore Our Services
             </button>
-            <button
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            
+            
+            <a href="https://calendly.com/hfs0consult/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => document.querySelector("https://calendly.com/hfs0consult/30min")?.click()}
               className="border-2 border-[#CECA64] text-[#CECA64] px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 "
             >
               Book a Consultation
-            </button>
+            </a>
+            
+
+
+    
           </div>
         </div>
 

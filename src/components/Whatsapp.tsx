@@ -25,14 +25,14 @@ const WhatsappLive = () => {
 
   return (
     <a
-      className="whatsapp-link fixed bottom-6 right-6 opacity-0 transition-opacity duration-300"
+      className="whatsapp-link fixed bottom-2 left-6 opacity-0 transition-opacity duration-300"
       href={whatsappLink}
       target="_blank"
       rel="noreferrer noopener"
     >
       {/* Ping animation */}
       <span className="absolute left-[7px] top-[7px] -z-50 size-10">
-        <span className="flex size-full items-center justify-center animate-ping rounded-full opacity-75 bg-green-500"></span>
+        <span className="flex size-full items-center justify-center animate-ping rounded-full opacity-75 bg-[#CECA64]"></span>
       </span>
 
       {/* WhatsApp icon */}
