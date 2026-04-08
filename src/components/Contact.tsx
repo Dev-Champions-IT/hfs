@@ -31,8 +31,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'info@hfsconsult.com',
-      href: 'mailto:info@hfsconsult.com'
+      value: 'info@hfsconsult.us',
+      href: 'mailto:info@hfsconsult.us'
     },
     {
       icon: Phone,

@@ -77,7 +77,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-gray-400">
-              <p>info@hfslimited.com</p>
+              <p>info@hfsconsult.us</p>
               <p>+234 (0) 803-254-8135</p>
               <p>Lagos, Nigeria</p>
             </div>
