@@ -31,14 +31,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@adetuladaniel.design',
-      href: 'mailto:hello@adetuladaniel.design'
+      value: 'info@hfsconsult.com',
+      href: 'mailto:info@hfsconsult.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+234 803-254-8135',
+      href: 'tel:+2348032548135'
     },
     {
       icon: MapPin,
@@ -233,10 +233,10 @@ const Contact = () => {
         className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-700 text-white focus:ring-2 focus:ring-[#4456BE] focus:border-transparent transition-colors"
       >
         <option value="">Select range</option>
-        <option value="<50k">Less than $50,000</option>
-        <option value="50k-250k">$50,000 - $250,000</option>
-        <option value="250k-1m">$250,000 - $1,000,000</option>
-        <option value="1m+">$1,000,000+</option>
+        <option value="<1m-50m">₦1m - ₦50m</option>
+        <option value="50m-100m">₦50m - ₦100m</option>
+        <option value="100m-250m">₦100m - ₦200m</option>
+        <option value="250m+">₦200m+</option>
       </select>
     </div>
 
